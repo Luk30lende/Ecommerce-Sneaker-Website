@@ -7,9 +7,10 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- ===== BOX ICONS ===== -->
+    <!-- ===== REMIX ICONS ===== -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
     />
 
     <title>Ecommerce Sneakers Website</title>
@@ -19,7 +20,7 @@
     <header class="header" id="header">
       <nav class="nav bd-grid">
         <div class="nav_toggle" id="nav-toggle">
-          <i class="bx bxs-grid"></i>
+          <i class="ri-menu-fill"></i>
         </div>
 
         <a href="#" class="nav_logo">Sneekas</a>
@@ -41,15 +42,82 @@
         </div>
 
         <div class="nav_shop">
-          <i class="bx bx-shopping-bag"></i>
+          <i class="ri-shopping-bag-line"></i>
         </div>
       </nav>
     </header>
 
     <main class="l-main">
       <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home_container bd-grid">
+          <div class="home_sneaker">
+            <div class="home_shape"></div>
+            <img src="assets/img/imghome.png" alt="image" class="home_img" />
+          </div>
+
+          <div class="home_data">
+            <span class="home_new">New in</span>
+            <h1 class="home_title">
+              YEEZY BOOST <br />
+              SPLY - 350
+            </h1>
+            <p class="home_description">
+              Explore the new collection of sneakers
+            </p>
+            <a href="#" class="button">Explore now</a>
+          </div>
+        </div>
+      </section>
 
       <!--===== FEATURED =====-->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">FEATURED</h2>
+
+        <div class="featured_container bd-grid">
+          <article class="sneaker">
+            <div class="sneaker_sale">Sale</div>
+            <img
+              src="assets/img/featured1.png"
+              alt="image"
+              class="sneaker_img"
+            />
+            <span class="sneaker_name">Nike Jordan</span>
+            <span class="sneaker_price">$150</span>
+            <a href="#" class="button-light"
+              >Add to Cart <i class="ri-right-arrow-fill button-icon"></i
+            ></a>
+          </article>
+
+          <article class="sneaker">
+            <div class="sneaker_sale">Sale</div>
+            <img
+              src="assets/img/featured2.png"
+              alt="image"
+              class="sneaker_img"
+            />
+            <span class="sneaker_name">Nike Free RN</span>
+            <span class="sneaker_price">$150</span>
+            <a href="#" class="button-light"
+              >Add to Cart <i class="ri-right-arrow-fill button-icon"></i
+            ></a>
+          </article>
+
+          <article class="sneaker">
+            <div class="sneaker_sale">Sale</div>
+            <img
+              src="assets/img/featured3.png"
+              alt="image"
+              class="sneaker_img"
+            />
+            <span class="sneaker_name">Nike Free RN</span>
+            <span class="sneaker_price">$150</span>
+            <a href="#" class="button-light"
+              >Add to Cart <i class="ri-right-arrow-fill button-icon"></i
+            ></a>
+          </article>
+        </div>
+      </section>
 
       <!--===== COLLECTION =====-->
 

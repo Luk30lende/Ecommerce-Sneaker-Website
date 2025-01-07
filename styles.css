@@ -322,7 +322,7 @@ img {
 .sneaker_price {
   font-size: var(--h2-font-size);
   letter-spacing: 1.6px;
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-sbold);
 }
 
 .sneaker_name {
@@ -338,49 +338,76 @@ img {
 }
 
 /*===== COLLECTION =====*/
-.collection_container{
+.collection_container {
   row-gap: 32px;
   justify-content: center;
 }
 
-.collection_card{
+.collection_card {
   position: relative;
   display: flex;
   height: 328px;
   background-color: var(--dark-color-lighten);
   padding: 32px;
   border-radius: 8px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.collection_data{
+.collection_data {
   align-self: self-end;
 }
 
-.collection_img{
+.collection_img {
   position: absolute;
   top: 0;
   right: 0;
   width: 230px;
 }
 
-.collection_name{
+.collection_name {
   font-size: var(--bigger-font-size);
   margin-bottom: 4px;
-
 }
 
-.collection_description{
+.collection_description {
   margin-bottom: var(--mb-2);
 }
 
-.collection_card:hover{
+.collection_card:hover {
   transform: translate(-8px);
 }
 
 /*===== WOMEN SNEAKERS =====*/
+.women_container {
+  row-gap: 32px;
+  grid-template-columns: repeat(autofit, minmax(220px, 1fr));
+}
 
 /*===== OFFER =====*/
+.offer_container {
+  grid-template-columns: 55% 45%;
+  column-gap: 0;
+  background-color: var(--dark-color-lighten);
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.offer_data {
+  padding: 64px 0 64px 24px;
+}
+
+.offer_title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 4px;
+}
+
+.offer_description {
+  margin-bottom: var(--mb-3);
+}
+
+.offer_img {
+  width: 153px;
+}
 
 /*===== NEW COLLECTION  =====*/
 

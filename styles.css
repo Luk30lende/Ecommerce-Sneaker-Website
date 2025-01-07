@@ -338,6 +338,45 @@ img {
 }
 
 /*===== COLLECTION =====*/
+.collection_container{
+  row-gap: 32px;
+  justify-content: center;
+}
+
+.collection_card{
+  position: relative;
+  display: flex;
+  height: 328px;
+  background-color: var(--dark-color-lighten);
+  padding: 32px;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.collection_data{
+  align-self: self-end;
+}
+
+.collection_img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 230px;
+}
+
+.collection_name{
+  font-size: var(--bigger-font-size);
+  margin-bottom: 4px;
+
+}
+
+.collection_description{
+  margin-bottom: var(--mb-2);
+}
+
+.collection_card:hover{
+  transform: translate(-8px);
+}
 
 /*===== WOMEN SNEAKERS =====*/
 

@@ -48,4 +48,8 @@ let swiperTitles = new Swiper(".home_titles", {
   grabCursor: true,
   centeredSlides: true,
 });
+
+swiperImages.controller.control = swiperTitles;
+swiperTitles.controller.control = swiperImages;
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/

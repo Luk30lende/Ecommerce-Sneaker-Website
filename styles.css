@@ -197,6 +197,9 @@ img {
 
 .home_title {
   font-size: var(--biggest-font-size);
+  transform: translateY(160px);
+  opacity: 0;
+  transition: transform 0.3s 0.2s, opacity 0.3s;
 }
 
 .home_button,
@@ -283,11 +286,45 @@ img {
   font-size: 24px;
 }
 
+.home_controls {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+}
+
 /* Swiper class */
 .swiper {
   margin-inline: initial;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-pagination {
+  position: initial;
+  font-weight: var(--font-semi-bold);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: initial;
+  width: initial;
+  height: initial;
+  font-size: 20px;
+  padding: 3px 20px;
+}
+
+.swiper-button-next {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.swiper-button-prev {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
 /* Swiper animation */
 
 /*=============== SCROLL BAR ===============*/

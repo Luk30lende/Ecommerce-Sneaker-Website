@@ -284,6 +284,9 @@ img {
 }
 
 /* Swiper class */
+.swiper {
+  margin-inline: initial;
+}
 
 /* Swiper animation */
 

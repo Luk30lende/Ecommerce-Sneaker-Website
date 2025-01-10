@@ -89,23 +89,23 @@
           <div class="home_data">
             <h3 class="home_subtitle">NEW IN</h3>
 
-            <div class="home_titles">
-              <div>
-                <div>
+            <div thumbsSlider="" class="home_titles swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
                   <h1 class="home_title">
                     Yeezy Boost <br />
                     SPLY 350
                   </h1>
                 </div>
 
-                <div>
+                <div class="swiper-slide">
                   <h1 class="home_title">
                     Lupinek <br />
                     Flyknit ACG
                   </h1>
                 </div>
 
-                <div>
+                <div class="swiper-slide">
                   <h1 class="home_title">
                     Air Max <br />
                     Motion 2
@@ -120,9 +120,9 @@
           </div>
 
           <div class="home_images">
-            <div class="home_swiper">
-              <div>
-                <article class="home_article">
+            <div class="home_swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="home_article swiper-slide">
                   <div class="home_card">
                     <div class="home_circle home_circle-1"></div>
                     <img
@@ -138,7 +138,7 @@
                   </div>
                 </article>
 
-                <article class="home_article">
+                <article class="home_article swiper-slide">
                   <div class="home_card">
                     <div class="home_circle home_circle-2"></div>
                     <img
@@ -154,7 +154,7 @@
                   </div>
                 </article>
 
-                <article class="home_article">
+                <article class="home_article swiper-slide">
                   <div class="home_card">
                     <div class="home_circle home_circle-3"></div>
                     <img
@@ -174,7 +174,21 @@
           </div>
 
           <footer class="home_footer">
-            <div class="home_controls"></div>
+            <div class="home_controls">
+              <!-- Pagination -->
+              <div class="swiper-pagination"></div>
+
+              <div class="home_navigation">
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-line"></i>
+                </div>
+
+                <div class="swiper-button-next">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
 
             <div class="home_social">
               <a

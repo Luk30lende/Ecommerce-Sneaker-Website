@@ -25,5 +25,27 @@ const linkAction = () => {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== SWIPER SNEAKERS ===============*/
+let swiperImages = new Swiper(".home_swiper", {
+  loop: true,
+  spaceBetween: 64,
+  grabCursor: true,
+  centeredSlides: true,
 
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+let swiperTitles = new Swiper(".home_titles", {
+  loop: true,
+  spaceBetween: 64,
+  grabCursor: true,
+  centeredSlides: true,
+});
 /*=============== CHANGE BACKGROUND HEADER ===============*/

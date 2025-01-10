@@ -6,9 +6,9 @@
   --header-height: 56px;
 
   /*========== Colors ==========*/
-  --first-color: #f6ae55;
-  --second-color: #f42536;
-  --third-color: #55c6f6;
+  --first-color: #564842;
+  --second-color: #fdfdfd;
+  --third-color: #a29596;
   --title-color: #1f1f1f;
   --text-color: #8f8f8f;
   --black-color: #0a0a0a;
@@ -170,6 +170,118 @@ img {
 /* Background header */
 
 /*=============== HOME ===============*/
+.home_container,
+.home_data,
+.home_article,
+.home_images,
+.home_footer {
+  display: grid;
+}
+
+.home_container {
+  padding-block: 120px 40px;
+  row-gap: 24px;
+}
+
+.home_data {
+  text-align: center;
+}
+
+.home_subtitle {
+  font-size: var(--small-font-size);
+}
+
+.home_titles {
+  margin-block: 8px 32px;
+}
+
+.home_title {
+  font-size: var(--biggest-font-size);
+}
+
+.home_button,
+.home_social,
+.home_controls,
+.home_navigation {
+  display: flex;
+}
+
+.home_button {
+  justify-self: center;
+  align-items: center;
+  column-gap: 8px;
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.home_button i {
+  font-size: 20px;
+  font-weight: initial;
+  transition: transform 0.4s;
+}
+
+.home_button:hover i {
+  transform: translateX(8px);
+}
+
+.home_article {
+  width: 270px;
+  place-items: center;
+  padding-block: 16px;
+}
+
+.home_card {
+  position: relative;
+}
+
+.home_circle {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.home_circle-1 {
+  background-color: var(--first-color);
+}
+
+.home_circle-2 {
+  background-color: var(--second-color);
+}
+
+.home_circle-3 {
+  background-color: var(--third-color);
+}
+
+.home_img-1,
+.home_img-2 {
+  position: absolute;
+  width: 200px;
+  filter: drop-shadow(0 20px 12px rgba(0, 0, 0, 0.4));
+}
+
+.home_img-1 {
+  bottom: 112px;
+  left: -24px;
+}
+
+.home_img-2 {
+  bottom: 48px;
+  right: -24px;
+}
+
+.home_footer {
+  row-gap: 48px;
+}
+
+.home_social {
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.home_social-link {
+  color: var(--title-color);
+  font-size: 24px;
+}
 
 /* Swiper class */
 

@@ -168,6 +168,9 @@ img {
 }
 
 /* Background header */
+.bg-header {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
 
 /*=============== HOME ===============*/
 .home_container,
@@ -353,6 +356,14 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 9px;
+  background-color: #b3b3b3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999999;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */

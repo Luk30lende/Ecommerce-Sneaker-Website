@@ -1,5 +1,7 @@
 # Sneaker Website Landing Page
 
+![Screenshot 1](/assets/img/Screenshot.png)
+
 A stylish and modern sneaker website landing page built using **HTML, CSS, and JavaScript**. The website features smooth animations, interactive elements, and a responsive design, utilizing the **Swiper slider library** for carousel effects and **Remix Icons** for stylish icons.
 
 ## Features

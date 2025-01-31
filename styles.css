@@ -10,6 +10,7 @@
   --second-color: #fdfdfd;
   --third-color: #a29596;
   --fourth-color: #a30e23;
+  --fifth-color: #636363;
   --title-color: #1f1f1f;
   --text-color: #8f8f8f;
   --black-color: #0a0a0a;
@@ -263,6 +264,10 @@ img {
 
 .home_circle-4 {
   background-color: var(--fourth-color);
+}
+
+.home_circle-5 {
+  background-color: var(--fifth-color);
 }
 
 .home_img-1,
